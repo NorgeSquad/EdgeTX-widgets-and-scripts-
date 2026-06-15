@@ -48,7 +48,7 @@ local BAR_W  = COL_W - BAR_X - 1   -- bar width (fits remaining column pixels)
 -- ── Sensor helpers ──────────────────────────────────────────────────────────
 
 local function getCellsSensor()
-    local val = getValue("Cels")
+    local val = getValue("CeL2")
     T = (type(val) == "table") and val or {}
 end
 
